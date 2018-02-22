@@ -17,6 +17,8 @@ use Martin\Transactions\ShoppingCart;
 |
 */
 
+
+
 /**
  * Authentication via Ajax request
  */

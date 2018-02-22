@@ -8,6 +8,10 @@ use Martin\Subscriptions\Package;
 use Martin\Subscriptions\Plan;
 use Martin\Transactions\Order;
 
+Route::get('ping', function() {
+    return response('', 200);
+});
+
 Route::resource('addresses', 'AddressesController');
 Route::get('couriers', 'CouriersController@index');
 
