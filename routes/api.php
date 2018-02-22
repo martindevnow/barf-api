@@ -16,6 +16,7 @@ use Martin\Transactions\ShoppingCart;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
 /**
  * Authentication via Ajax request
  */
