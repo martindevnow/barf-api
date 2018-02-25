@@ -119,4 +119,8 @@ class PlansController extends Controller {
 
         return $plan->fresh(['customer', 'pet', 'package', 'orders']);
     }
+
+    public function notes(Plan $plan) {
+        return $plan->notes;
+    }
 }
